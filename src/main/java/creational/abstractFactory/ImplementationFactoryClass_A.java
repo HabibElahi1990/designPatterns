@@ -5,10 +5,6 @@ package creational.abstractFactory;
  */
 public class ImplementationFactoryClass_A extends ImplementationFactoryClass {
 
-    public ImplementationFactoryClass_A() {
-        super();
-    }
-
     @Override
     public String getString() {
         return FactoryClass.FactoryClassCode.IMPLEMENTATION_FACTORY_CLASS_CODE_A.name();
